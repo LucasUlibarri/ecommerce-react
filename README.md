@@ -1,8 +1,9 @@
-# React + Vite
+# Curso React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Preentrega 1 - (02/12/2024)
+En esta primera preentrega se realizaron los componentes
+- Navbar
+- ItemListContainer
+- CartWidget
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Solamente es la estructura, todavia no hay nada funcional.

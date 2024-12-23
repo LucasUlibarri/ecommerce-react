@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar'
-import ItemListContainer from './components/ItemListContainer'
-// import { useState } from 'react'
+import ItemListContainer from './components/itemListContainer/ItemListContainer'
 import './App.css'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <ItemListContainer msg="Bienvenidos a mi sitio!"/>
+      <ItemListContainer/>
     </>
   )
 }

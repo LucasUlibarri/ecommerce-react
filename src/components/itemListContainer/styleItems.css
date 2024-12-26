@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5%;
+    border: 1px solid rebeccapurple;
+}
+
+.card{
+    border: 1px solid red;
+}

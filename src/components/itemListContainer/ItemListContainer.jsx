@@ -1,14 +1,12 @@
 import {useEffect, useState} from "react";
 import ItemList from "./itemList";
-//Aca tengo que importar la lista de productos
+import { productos } from "../../data/productos";
+import "./styleItems.css"
 
 function ItemListContainer() {
 
-    //Esta funcion trae los prod
     const [items,setItems] = useState([]);
 
-    //Funcion para ejecutarse en el montaje
-    //Revisar como es cuando consumo una API
     useEffect(() => {
         const fetchProductos = new Promise((resolve) => {
             setTimeout(() => {

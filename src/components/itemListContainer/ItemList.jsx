@@ -13,7 +13,7 @@ function ItemList({items}){
     const filteredItems = selectedBrand ? items.filter(item=>item.marca === selectedBrand) :items;
 
     return(
-        <div>
+        <>
             
             <div>
                 <button className="btn-filtros" onClick={() => setSelectedBrand(marcas.VANS)}>Vans</button>
@@ -21,11 +21,13 @@ function ItemList({items}){
                 <button className="btn-filtros" onClick={() => setSelectedBrand(marcas.ADIDAS)}>Adidas</button>
             </div>
 
-            {filteredItems.map((item) => (
-                <Item key={item.id} {...item}/>
-            )
-            )}
-        </div>
+            <div className="container">
+                {filteredItems.map((item) => (
+                        <Item key={item.id} {...item}/>
+                    )
+                )}
+            </div>
+        </>
     )
 }
 

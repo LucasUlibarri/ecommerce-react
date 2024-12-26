@@ -5,7 +5,7 @@ export const productos = [
       marca: "Vans",
       descripcion: "Clásico modelo con diseño lateral en forma de onda, ideal para el día a día.",
       precio: 24999,
-      imagen: "https://example.com/vans-old-skool.jpg",
+      imagen: "https://sieteveintecl.vtexassets.com/arquivos/ids/340573-800-auto",
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ export const productos = [
       marca: "Vans",
       descripcion: "Zapatillas de caña alta con diseño robusto y elegante.",
       precio: 27999,
-      imagen: "https://example.com/vans-sk8-hi.jpg",
+      imagen: "https://vans.com.pe/cdn/shop/files/VN000D5IB8C_ALT1.png",
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ export const productos = [
       marca: "Vans",
       descripcion: "Un modelo minimalista y atemporal para un look casual.",
       precio: 22999,
-      imagen: "https://example.com/vans-authentic.jpg",
+      imagen: "https://acdn.mitiendanube.com/stores/001/633/637/products/vn000ee3nvy_03-5cc3130f7fc574147917011938771086-1024-1024.png",
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ export const productos = [
       marca: "Adidas",
       descripcion: "Zapatillas icónicas con puntera de goma y estilo urbano.",
       precio: 32999,
-      imagen: "https://example.com/adidas-superstar.jpg",
+      imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpuQyM0Dy5UJCjAKY8T-9wvUIfE_oqbwN2Vw&s",
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ export const productos = [
       marca: "Adidas",
       descripcion: "Rendimiento excepcional y comodidad para correr largas distancias.",
       precio: 49999,
-      imagen: "https://example.com/adidas-ultraboost.jpg",
+      imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStg3eNIDOsUIF99F6wADcM55f7R44fAEj19w&s",
     },
     {
       id: 6,
@@ -45,7 +45,7 @@ export const productos = [
       marca: "Adidas",
       descripcion: "Modelo retro con un toque moderno, perfecto para uso diario.",
       precio: 28999,
-      imagen: "https://example.com/adidas-forum-low.jpg",
+      imagen: "https://assets.adidas.com/images/w_600,f_auto,q_auto/fa013bb5927d4ba6917ee0906ddf2743_9366/Zapatillas_Forum_Low_CL_Blanco_IF9681_01_standard.jpg",
     },
     {
       id: 7,
@@ -53,7 +53,7 @@ export const productos = [
       marca: "Converse",
       descripcion: "El clásico modelo de lona que nunca pasa de moda.",
       precio: 21999,
-      imagen: "https://example.com/converse-chuck-taylor.jpg",
+      imagen: "https://woker.vtexassets.com/arquivos/ids/178124-800-800",
     },
     {
       id: 8,
@@ -61,7 +61,7 @@ export const productos = [
       marca: "Converse",
       descripcion: "Una versión moderna con plataforma y diseño llamativo.",
       precio: 31999,
-      imagen: "https://example.com/converse-run-star-hike.jpg",
+      imagen: "https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/i5mkvs6sq1sxb482sc68qdvg7ilk/77e513bcd3762f47919c96f85e400038a39acdbb0d268f51c1fd98fe5327bd96",
     },
     {
       id: 9,
@@ -69,7 +69,7 @@ export const productos = [
       marca: "Converse",
       descripcion: "La versión premium del modelo clásico, con materiales de alta calidad.",
       precio: 26999,
-      imagen: "https://example.com/converse-chuck-70.jpg",
+      imagen: "https://wearestrap.com/cdn/shop/files/converse_chuck_70_hi_brown_1.jpg",
     },
     {
       id: 10,
@@ -77,7 +77,7 @@ export const productos = [
       marca: "Vans",
       descripcion: "Zapatillas versátiles y cómodas, ideales para cualquier ocasión.",
       precio: 23999,
-      imagen: "https://example.com/vans-era.jpg",
+      imagen: "https://www.localsonly.com.ar/cdn/shop/products/GOLDEN4.jpg",
     }
   ];
   

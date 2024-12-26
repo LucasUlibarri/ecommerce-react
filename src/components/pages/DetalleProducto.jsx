@@ -9,7 +9,7 @@ function DetalleProducto(){
     }
 
     return(
-        <div>
+        <div className="containerDetalle">
             <img src={producto.imagen}/>
             <div>
                 <h2>{producto.nombre}</h2>

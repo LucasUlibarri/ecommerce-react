@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 import App from './App.jsx'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBbwUmxV3WkC3NHAXPyRA_6gnAoxAnlkv0",
+  apiKey: import.meta.env.VITE_APIKEY,
   authDomain: "ecommerce-react-6b6a1.firebaseapp.com",
   projectId: "ecommerce-react-6b6a1",
   storageBucket: "ecommerce-react-6b6a1.firebasestorage.app",

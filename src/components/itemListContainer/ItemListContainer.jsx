@@ -1,25 +1,30 @@
 import {useEffect, useState} from "react";
 import ItemList from "./itemList";
-import { productos } from "../../data/productos";
+import { collection, getDocs, getFirestore } from "firebase/firestore";
+
 import "./styleItems.css"
-
 function ItemListContainer() {
+    const [items, setItems] = useState([]);
 
-    const [items,setItems] = useState([]);
+    const db = getFirestore();
 
     useEffect(() => {
-        const fetchProductos = new Promise((resolve) => {
-            setTimeout(() => {
-                resolve(productos)
-            },2000)
-        })
 
-        fetchProductos.then((data) => {
-            setItems(data)
+        const refItems = collection(db, 'items');
+
+        getDocs(refItems).then(snapshot => {
+            
+            const items = snapshot.docs.map(prod => ({
+                id: prod.id,
+                ...prod.data(),
+            }));
+            setItems(items)
         })
-    },[])
-    
-    
+        .catch(error => {
+            console.error("Error al obtener los items:", error);
+          });
+    }, []);  
+
 
     return(
         <>

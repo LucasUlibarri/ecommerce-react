@@ -1,4 +1,4 @@
-import Item from "./item";
+import Item from "./Item";
 import { useState } from "react";
 
 const marcas = {
